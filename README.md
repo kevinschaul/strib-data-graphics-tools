@@ -63,11 +63,6 @@ Useful for previewing projects with Star Tribune includes
     brew tap josegonzalez/homebrew-php
     brew install php54
 
-### [csvkit](http://csvkit.readthedocs.org/en/latest/)
-Command-line tools for manipulating/exploring .csv files
-
-    sudo pip install csvkit
-
 ### [VirtualBox](https://www.virtualbox.org/)
 Test your code in different environments
 
@@ -80,12 +75,19 @@ Note: This downloads ~15GB of files.
 
     curl -s https://raw.github.com/xdissent/ievms/master/ievms.sh | bash
 
-## Might be nice for future projects
+## Data analysis tools
 
-### [gdal](http://www.gdal.org/)
-Geospatial data library, command-line tools
+### [csvkit](http://csvkit.readthedocs.org/en/latest/)
+Command-line tools for manipulating/exploring .csv files
 
-    brew install gdal
+    sudo pip install csvkit
+
+### [R Studio](http://www.rstudio.com/)
+Statistical analysis, graphing software
+
+Requires [R](http://www.r-project.org/)
+
+Via [.dmg installer](http://www.rstudio.com/ide/download/)
 
 ### [qgis](http://qgis.org/en/site/)
 GIS system
@@ -93,6 +95,13 @@ GIS system
 Requires [GDAL Complete](http://www.kyngchaos.com/software/frameworks#gdal_complete)
 
 Via [.pkg installer](http://www.kyngchaos.com/software/qgis)
+
+## Might be nice for future projects
+
+### [gdal](http://www.gdal.org/)
+Geospatial data library, command-line tools
+
+    brew install gdal
 
 ### [pip](https://pypi.python.org/pypi/pip/)
 Python package manager
