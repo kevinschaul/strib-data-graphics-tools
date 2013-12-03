@@ -36,6 +36,9 @@ Version control
     git config --global user.name 'YOUR NAME'
     git config --global user.email 'YOUR@EMAIL.com'
     git config --global push.default matching
+
+    # For `git st` shortcut
+    git config --global alias.st 'status -s -b'
     
     # For pretty colors
     git config --global color.ui true
